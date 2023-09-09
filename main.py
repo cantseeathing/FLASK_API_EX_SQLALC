@@ -15,6 +15,9 @@
 # DOCKER CONTAINER
 # docker run -dp 5000:5000 -w /app -v "/c/Users/mahmo/PycharmProjects/flask_smorest_api_ex:/app" flask_api_ex
 
+# TO RUN THE FLASK APP IN CONSOLE
+# flask run
+
 import uuid
 from flask import Flask, request, redirect
 from flask_smorest import abort, Api
