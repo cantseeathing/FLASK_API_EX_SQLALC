@@ -33,7 +33,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"store_id\": \"{{STORE_ID}}\",\r\n    \"name\": \"table\",\r\n    \"price\": 53.70\r\n}",
+							"raw": "{\r\n    \"store_id\": \"{{STORE_ID}}\",\r\n    \"name\": \"chair\",\r\n    \"price\": 10.50\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -103,12 +103,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/item/{{ITEM_ID}}",
+							"raw": "{{URL}}/items/{{ITEM_ID}}",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
-								"item",
+								"items",
 								"{{ITEM_ID}}"
 							]
 						}
@@ -144,7 +144,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"test\"\r\n}",
+							"raw": "{\r\n    \"name\": \"test1\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
